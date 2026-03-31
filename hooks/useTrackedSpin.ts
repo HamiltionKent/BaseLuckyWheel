@@ -7,7 +7,8 @@ import { baseLuckyWheelAbi } from "@/lib/abi/baseLuckyWheelAbi";
 import {
   APP_ID,
   APP_NAME,
-  BUILDER_CODE_PLACEHOLDER,
+  BUILDER_CODE,
+  BUILDER_CODE_ENCODED,
   PLAY_FEE_WEI,
   luckyWheelContract
 } from "@/lib/contracts";
@@ -18,10 +19,14 @@ export type SpinTrackedResult = {
   win?: boolean;
 };
 
-const DATA_SUFFIX = Attribution.toDataSuffix({
-  // 这里替换为真实 Builder Code
-  codes: [BUILDER_CODE_PLACEHOLDER]
+const computedDataSuffix = Attribution.toDataSuffix({
+  // Replace this with your real Builder Code.
+  codes: [BUILDER_CODE]
 });
+
+const DATA_SUFFIX = (computedDataSuffix.toLowerCase() === BUILDER_CODE_ENCODED.toLowerCase()
+  ? computedDataSuffix
+  : BUILDER_CODE_ENCODED) as `0x${string}`;
 
 export function useTrackedSpin() {
   const { address } = useAccount();
