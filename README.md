@@ -90,3 +90,12 @@ python -m venv .venv
 
 ```bash
 make
+```
+
+Use the command that matches the actual files and scripts available in this repository.
+
+## Project Structure
+
+Review the repository contents to understand how the project is organized.
+
+Common areas to look for include:
