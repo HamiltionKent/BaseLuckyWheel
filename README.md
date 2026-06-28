@@ -73,3 +73,12 @@ Examples of common commands include:
 npm install
 npm run dev
 ```
+
+```bash
+npm install
+npm start
+```
+
+```bash
+yarn install
+yarn start
