@@ -82,3 +82,11 @@ npm start
 ```bash
 yarn install
 yarn start
+```
+
+```bash
+python -m venv .venv
+```
+
+```bash
+make
