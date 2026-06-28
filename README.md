@@ -47,3 +47,13 @@ ls
 ```
 
 ## Setup
+
+The exact setup steps depend on the technologies used inside the repository.
+
+After cloning the project, inspect the root directory for dependency or build files such as:
+
+- `package.json`
+- `requirements.txt`
+- `pom.xml`
+- `build.gradle`
+- `Cargo.toml`
