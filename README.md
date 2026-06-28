@@ -32,3 +32,10 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/HamiltionKent/BaseLuckyWheel.git
+```
+
+Move into the project directory:
+
+```bash
+cd BaseLuckyWheel
+```
