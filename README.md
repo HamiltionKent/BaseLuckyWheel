@@ -57,3 +57,10 @@ After cloning the project, inspect the root directory for dependency or build fi
 - `pom.xml`
 - `build.gradle`
 - `Cargo.toml`
+- `composer.json`
+- `Makefile`
+- Other framework-specific configuration files
+
+Install dependencies using the package manager or build tool that matches the files present in the project.
+
+## Usage
