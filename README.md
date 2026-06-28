@@ -23,3 +23,12 @@ Because the original project description is minimal, this README focuses on clea
 ## Repository
 
 GitHub repository:
+
+https://github.com/HamiltionKent/BaseLuckyWheel.git
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HamiltionKent/BaseLuckyWheel.git
