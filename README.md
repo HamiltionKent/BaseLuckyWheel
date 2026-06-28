@@ -39,3 +39,11 @@ Move into the project directory:
 ```bash
 cd BaseLuckyWheel
 ```
+
+Review the project files:
+
+```bash
+ls
+```
+
+## Setup
